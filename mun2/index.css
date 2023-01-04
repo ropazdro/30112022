@@ -1,0 +1,100 @@
+body
+{
+    font-size:6px;
+    height:100%;
+    background-color:rgb(130, 255, 234);
+    font-family: 'Comic Sans MS';
+}
+.menu
+{
+    height:auto;
+    width:auto;
+    border-radius: 10px;
+    position: fixed;
+    float: left;
+    background-color:rgb(255, 202, 104);
+    margin-left: 4px;
+    
+}
+.z1,.z2,.z3,.z4,.z5,.z6,.z7,.z8,.z9,.z0
+{
+    margin-left:-37px;
+    width:38px;
+    display: flex;
+    height:40px;
+}
+.z1 a,.z2 a,.z3 a,.z4 a,.z5 a,.z6 a,.z7 a,.z8 a,.z9 a, .z0 a
+{
+    width:38px;
+    height:40px;
+}
+.z1
+{
+    width: 38px;
+    height: 40px;
+    background: url(spritesheet.png) 0 0;
+}
+.z2
+{
+    width: 38px;
+    height: 40px;
+    background: url(spritesheet.png) -39px 0;
+}
+.z3
+{
+    width: 38px;
+    height: 40px;
+    background: url(spritesheet.png) -78px 0;
+}
+.z4
+{
+    width: 38px;
+    height: 40px;
+    background: url(spritesheet.png) -117px 0;
+}
+.z5
+{
+    width: 38px;
+    height: 40px;
+    background: url(spritesheet.png) -156px 0;
+}
+.z6
+{
+    width: 39px;
+    height: 40px;
+    background: url(spritesheet.png) -195px 0;
+}
+.z7
+{
+    width: 40px;
+    height: 40px;
+    background: url(spritesheet.png) -234px 0;
+}
+.z8
+{
+    width: 40px;
+    height: 40px;
+    background: url(spritesheet.png) -273px 0;
+}
+.z9
+{
+    width: 40px;
+    height: 40px;
+    background: url(spritesheet.png) -312px 0;
+}
+.z0
+{
+    width: 40px;
+    height: 40px;
+    background: url(spritesheet.png) -351px 0;
+}
+.c
+{
+    font-size:32px;
+    width: 420px;
+    height: auto;
+    display: flex; 
+    justify-content: center;
+    margin-left:33%;
+    border: darkblue 2px dotted
+}
